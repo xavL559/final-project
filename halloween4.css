@@ -1,0 +1,37 @@
+.header {
+    color: orange;
+    text-shadow: 3px 1px black;
+    font-size: 45px;
+}
+
+.two {
+    font-size: 25px;
+}
+
+h2::first-letter {
+    font-size: 200%;
+}
+
+.header4 {
+    font-size: 115%;
+}
+
+main {
+    font-size: 100%;
+}
+
+h5 {
+    font-size: 105%;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.ul {
+    list-style: none;
+}
+  
+.color {
+    color: orange;
+}
