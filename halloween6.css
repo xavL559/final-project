@@ -32,7 +32,7 @@ h5 {
 }
 
 .ul {
-    list-style: none;
+    
     
 }
   
@@ -51,12 +51,12 @@ body {
    box-shadow:  0 0 25px
 }
 
-li{
-    
-    display: block;
-   width: 160px;
-}
-
 html {
     background-image: url("bats.gif");
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
 }
