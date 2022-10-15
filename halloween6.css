@@ -2,7 +2,8 @@ h1{
     font-size: 45px;
    background-image: linear-gradient(45deg, white 0%, orange 75%, black 100%);
   border: 2px solid black;
-  padding: 15px;
+  margin-block: 0px;
+  height: 100px;
 }
 
 .two {
@@ -13,8 +14,13 @@ h2::first-letter {
     font-size: 200%;
 }
 
+h2{
+    text-indent: 160px;
+}
+
 .header4 {
     font-size: 115%;
+    text-indent: 160px;
 }
 
 main {
@@ -23,6 +29,7 @@ main {
 
 h5 {
     font-size: 105%;
+    text-indent: 160px;
 }
 
 .copyright {
@@ -31,11 +38,6 @@ h5 {
  background-image: linear-gradient(45deg, black 0%, orange 75%, white 100%);
 }
 
-.ul {
-    
-    
-}
-  
 .color {
     color: orange;
 }
@@ -49,14 +51,35 @@ body {
    border-width: 2px;
    border-color: black;
    box-shadow:  0 0 25px
+   
 }
+
 
 html {
     background-image: url("bats.gif");
 }
 
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-}
+ p{
+    margin-left: 160px;
+ }
+
+ nav {
+    float: left;
+    margin-top: -415px;
+    width: 160px;
+ }
+
+ .kitty {
+    position: relative;
+    right: -150px;
+ }
+
+    .linkitty{
+        position: relative;
+    right: -150px;
+    }
+
+    .dog {
+        color: orange;
+    }
+ 
