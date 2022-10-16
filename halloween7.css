@@ -63,10 +63,11 @@ html {
     margin-left: 160px;
  }
 
- nav {
+ aside {
     float: left;
     margin-top: -415px;
     width: 160px;
+    
  }
 
  .kitty {
@@ -83,3 +84,60 @@ html {
         color: orange;
     }
  
+
+    ul {
+        list-style-type: none;   
+    }
+
+    .border1
+    {color: black;
+    border: 2px solid black;
+    padding: 10px;
+    padding-right: 46px;
+    position: relative;
+    top: -10px;
+    background-color: orange;
+    text-decoration: none;
+    }
+
+    .border2
+    {color: black;
+    border: 2px solid black;
+    padding: 10px;
+    padding-right: 14px;
+        position: relative;
+    top: 20px;
+    background-color: orange;
+    text-decoration: none;
+    }
+
+    .border3
+    {color: black;
+        border: 2px solid black;
+        padding: 10px;
+        position: relative;
+    top: 50px;
+    background-color: orange;
+    text-decoration: none;
+    }
+
+    .border4
+    {color: black;
+        border: 2px solid black;
+        padding: 10px;
+        padding-right: 42px;
+        position: relative;
+    top: 80px;
+    background-color: orange;
+    text-decoration: none;
+    }
+
+    #nav_menu ul li {
+        list-style: none;
+        display: inline;
+        position: relative;
+        top: -40px;
+        
+    }
+
+  
